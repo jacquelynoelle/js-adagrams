@@ -105,7 +105,8 @@ const Adagrams = {
         highest.score = currentScore;
         highest.word = word;
       } else if (currentScore == highest.score) {
-        if ((word.length == 10 && highest.word.length != 10) || (word.length < highest.word.length && highest.word.length != 10)) {
+        if ((word.length == 10 && highest.word.length != 10) ||
+        (word.length < highest.word.length && highest.word.length != 10)) {
           highest.score = currentScore;
           highest.word = word;
         }
